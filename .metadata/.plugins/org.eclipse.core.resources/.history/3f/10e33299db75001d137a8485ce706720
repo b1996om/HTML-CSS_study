@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Table CSS</title>
+	<style>
+		body {
+			font-family: 'Jeju Gothic', sans-serif;
+		}
+		table, td {
+			height:100px;
+			padding:20px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+	<caption>vertical-alignment</caption>
+		<td class="var1"></td>
+		<td class="var2"></td>
+		<td class="var3"></td>
+	</table>
+</body>
+</html>

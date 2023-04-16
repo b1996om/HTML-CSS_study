@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>플렉스 박스</title>
+	<style>
+		#con {
+			width:500px;
+			height:300px;
+			margin:0 auto;
+			display:flex;
+			border:2px solid black;
+		}
+		#con div {
+			width:200px;   /* 넘치는건 겹쳐진다. */
+			border:2px solid black;
+			background:#ccc;
+		}
+		h1 {
+			font-size:20px;
+			font-weight:bold;
+			padding:20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="con">
+		<div class="box1"><h1>1</h1></div>
+		<div class="box2"><h1>2</h1></div>
+		<div class="box3"><h1>3</h1></div>
+	</div>
+</body>
+</html>

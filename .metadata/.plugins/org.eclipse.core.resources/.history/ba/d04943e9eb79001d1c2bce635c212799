@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>회원가입 폼 태그</title>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div class="con">
+		<section class="banner">
+			<img src="" alt="">
+		</section>
+		<h3>확인하세요</h3>
+		<section>
+			<div>주문 및 배송</div>
+			<p>오후 2시 이전 주문건은 당일 발송합니다.<br>
+			2시 이후 주문건은 다음날 발송합니다(주말 제외)</p>
+		</section>
+		<section>
+			<div>교환 및 환불</div>
+			<p>오후 2시 이전 주문건은 당일 발송합니다.<br>
+			2시 이후 주문건은 다음날 발송합니다(주말 제외)</p>
+		</section>
+		<div>
+			<h3>주문 및 배송</h3>
+			<p>오후 2시 이전 주문건은 당일 발송합니다.<br>
+			2시 이후 주문건은 다음날 발송합니다(주말 제외)</p>
+		</div>
+	</div>
+</body>
+</html>

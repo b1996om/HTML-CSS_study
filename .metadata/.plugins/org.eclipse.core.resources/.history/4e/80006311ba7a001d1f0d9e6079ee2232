@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>transition, transform연습</title>
+	<style>
+		.box1 {
+			width:100px;
+			height:100px;
+			background-color:green;
+			border:1px solid green;
+			transition:3s
+		}
+		.box1:hover {
+			width:200px;
+			height:200px;
+			border:50%;
+			background-color:tomato;
+			transform:rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>

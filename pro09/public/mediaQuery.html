@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>미디어쿼리를 이용한 반응형 웹 문서 만들기(실습)</title>
+	<style>
+		* {
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		body {
+			background:rgb(9, 100, 160);
+		}
+		#con {
+			width:320px;
+			margin:50px auto;  /* 위아래 50px, 좌우 auto */
+		}
+		.card {
+			position:relative;
+			width:300px;
+			height:500px;
+			margin:20px 10px;
+			border:1px solid #0f0f0f33;
+			background-color:#ffffff;
+		}
+		.words {
+			position:absolute;
+			left:10px;
+			top:300px;
+			padding:10px;
+			text-align:center;
+		}
+		.name {
+			margin-top:20px;
+			color:gray;
+		}
+		
+		/* 768px이상 1719px이하 */
+		@media screen and (min-width:768px) and (max-width:1719px) {
+			#con {
+				width:570px;
+				margin:50px auto;
+			}
+			.card {
+				position:relative;
+				width:550px;
+				height:250px;
+				margin:20px 10px;
+				border:1px solid #0f0f0f33;
+				background-color:#ffffff;
+			}
+			.words {
+				position:absolute;
+				width:200px;
+				left:310px;
+				top:50px;
+				text-align:center;
+			}
+		}
+		
+		/* 1720px이상 */
+		@media screen and (min-width:1720px) {
+			#con {
+				width:1710px;
+				margin:50px auto;
+			}
+			.card {
+				position:relative;
+				float:left;  /* 카드를 가로로 배치 */
+				width:550px;
+				height:250px;
+				margin:10px;
+				border:1px solid #0f0f0f33;
+				background-color:#ffffff;
+			}
+			.words {
+				position:absolute;
+				left:310px;
+				top:50px;
+				text-align:center;
+				width:200px;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="con">
+		<div class="card">
+			<img src="images/1.jpg" width="300" height="250" alt="이미지1">
+			<div class="words">
+				<h2>일 분 전만큼 먼 시간은 없다.</h2>
+				<h3 class="name">- Jim Bishop</h3>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/2.jpg" width="300" height="250" alt="이미지2">
+			<div class="words">
+				<h2>웃음은 마음의 조깅이다.</h2>
+				<h3 class="name">- Norman Cousins</h3>
+			</div>
+		</div>
+		<div class="card">
+			<img src="images/3.jpg" width="300" height="250" alt="이미지3">
+			<div class="words">
+				<h2>낡은 옷은 그냥 입고 새 책을 사라.</h2>
+				<h3 class="name">- Austin Phelps</h3>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

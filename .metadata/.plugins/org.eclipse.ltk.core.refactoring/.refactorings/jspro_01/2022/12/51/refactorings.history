@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jspro_01/public/js_01.js&apos; to &apos;text.js&apos;" description="Rename resource &apos;js_01.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/js_01.js" name="text.js" stamp="1670806301017" updateReferences="true"/>
+</session>

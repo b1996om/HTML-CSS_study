@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>그리드 레이아웃-가변 이미지</title>
+
+</head>
+<body>
+	<div>
+		<picture>
+			<source srcset="images/shop-l.jpg" media="(min-width:1024px)">
+			<source srcset="images/shop-m.jpg" media="(min-width:768px)">
+			<source srcset="images/shop-s.jpg" media="(min-width:320px)">
+			<img src="images/shop.jpg" alt="fill with coffee" style="width:100%;">
+		</picture>
+	</div>
+</body>
+</html>

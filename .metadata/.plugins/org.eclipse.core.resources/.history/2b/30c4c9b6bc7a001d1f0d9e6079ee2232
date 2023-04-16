@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>transition, transform연습</title>
+	<script src="prefixfree.min.js"></script>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		.con {
+			border:2px solid black;	
+			width:960px;
+			height:100%;
+			margin:0 auto;
+		}
+		header {
+			background-color:skyblue;
+			height:100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="con mx-auto">
+		<header>
+			<h1 class="header-text">가변 그리드 레이아웃</h1>
+		</header>
+		<section class="content">
+			<h4>본문</h4>
+		</section>
+		<aside class="right-side">
+			<h4>사이드바</h4>
+		</aside>
+		<footer>
+			<h4>푸터</h4>
+		</footer>
+	</div>
+</body>
+</html>

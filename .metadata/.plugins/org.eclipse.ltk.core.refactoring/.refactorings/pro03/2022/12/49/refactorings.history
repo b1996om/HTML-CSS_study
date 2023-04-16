@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pro03/public/input-autofocus.html&apos; to &apos;input-placeholder.html&apos;" description="Rename resource &apos;input-autofocus.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/input-autofocus.html" name="input-placeholder.html" stamp="1669865905881" updateReferences="true"/>
+</session>

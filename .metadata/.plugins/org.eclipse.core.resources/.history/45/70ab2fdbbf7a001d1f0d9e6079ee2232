@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>가변 그리드 레이아웃</title>
+	<script src="prefixfree.min.js"></script>
+	<style>
+		body {
+			background-color:#eee;
+		}
+		
+		@media screen and (orientation:landscape) {
+			body {background-color:orange;}
+		}
+		@media screen and (orientation:portrait) {
+			body {background-color:yellow;}
+		}
+	</style>
+</head>
+<body>
+	<h1>Media Query</h1>
+</body>
+</html>

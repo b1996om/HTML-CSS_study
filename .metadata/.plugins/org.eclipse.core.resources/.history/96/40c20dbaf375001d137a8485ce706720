@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>내가 처음 만드는 HTML 문서</title>
+	<link href="css/style1.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+			 <!-- <iframe src="https://www.naver.com/" width="95%" height="500"></iframe> --> 
+		</div>
+		<header>
+			<h1>Joandora</h1>
+			<h2>가장 제주다운 수산리집</h2>
+		</header>
+		<nav class="navi">
+			<ul>
+				<li><a href="#">이용 안내</a></li>
+				<li><a href="#">객실 안내</a></li>
+				<li><a href="#">예약 방법</a></li>
+				<li><a href="#">예약하기</a></li>
+			</ul>
+		</nav>
+	</div>
+</body>
+</html>

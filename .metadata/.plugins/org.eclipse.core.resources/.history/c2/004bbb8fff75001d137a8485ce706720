@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>내가 처음 만드는 HTML 문서</title>
+	<link href="css/style4.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<div>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<h2></h2>
+			<article>
+				<h3></h3>
+				<p></p>
+			</article>
+			<article>
+				<h3></h3>
+				<p></p>
+			</article>
+			<article>
+				<h3></h3>
+				<p></p>
+			</article>
+			<article>
+				<h3></h3>
+				<p></p>
+			</article>
+		</section>
+		<aside>
+			<img src="" alt=""> 
+			<img src="" alt=""> 
+			<img src="" alt=""> 
+		</aside>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<script src="prefixfree.min.js"></script>  <!-- 브라우저 접두사 자동 생성 js코드 -->
+	<title>HTML5 레이아웃</title>
+	<style>
+		body {
+			font-family:"맑은 고딕", "고딕","굴림";
+		}
+		.multi {
+			column-width:120px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h2>건강에 좋은 식품-Super Food</h2>
+	</header>
+	<div>
+		<p>코코넛 오일: 남미 파나마에서는 "코코넛오일 한 컵이면 모든 병이 낫는다."라고 이야기할 정도로
+		그 효능이 뛰어나다. 코코넛 오일에 들어있는 </p>
+		<p></p>
+		<p></p>
+	</div>
+</body>
+</html>

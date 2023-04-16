@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>표 스타일</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			font-family: 'Jeju Gothic', sans-serif;
+		}
+		table, td {
+			border:1px solid #ccc;
+		}
+		.table1 {
+			border-collapse:collapse;
+			width:300px;
+			table-layout:fixed;  /* 셀의 너비 고정! 높이는 내용에 따라 늘어남. */
+			word-break:break-all;
+			height:auto;
+		}
+		.table td {
+			width:150px;
+			border:1px solid black;
+			padding:5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Table Layout</h1>
+	<table class="table1">
+		<tr>
+			<td>
+				한글로띄어쓰기없게길게붙여쓰기
+			</td>
+			<td>
+				long_description_without_space
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

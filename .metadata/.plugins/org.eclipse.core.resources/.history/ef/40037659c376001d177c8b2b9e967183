@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Transform</title>
+	<style>
+		.origin {
+			width:210px;
+			height:210px;
+			border:1px solid black;
+			float:left;
+			margin:100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="origin">
+		<div class="skewx">
+			<img src="images/rose.png">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="skewey">
+			<img src="images/rose.png">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="skewxy">
+			<img src="images/rose.png">
+		</div>
+	</div>
+</body>
+</html>

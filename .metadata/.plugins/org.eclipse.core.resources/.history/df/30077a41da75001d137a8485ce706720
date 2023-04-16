@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>표 스타일</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			font-family: 'Jeju Myeongjo', serif;
+		}
+		table, td {
+			border:1px solid #ccc;
+		}
+		.table1 {
+			border-collapse:collapse;
+			width:300px;
+			table-layout:fixed;
+			word-break:break-all;
+			height:auto;
+		}
+		.table td {
+			width:150px;
+			border:1px solid black;
+			padding:5px;
+		}
+	</style>
+</head>
+<body>
+
+</body>
+</html>

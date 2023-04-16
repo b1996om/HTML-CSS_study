@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>오디오 재생하기</title>
+	<style>
+		div{
+			width:100px;
+			height:100px;
+			background-color:orange;
+			animation-name:change-bg;
+			animation-duration:3s;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

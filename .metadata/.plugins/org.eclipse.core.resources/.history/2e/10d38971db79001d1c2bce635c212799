@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>상품 주문서</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		.con {
+			width:500px;
+			margin:0 auto;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="con">
+		<h1>상품 주문서</h1>
+		<fieldset>
+			<legend>개인 정보</legend>
+			<ul>
+				<li>
+				<label for="uname">이름</label>
+				<input type="text" id="uname">
+				</li>
+				<li>
+				<label for="tel1">연락처</label>
+				<input type="tel" id="tel1">
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>배송지 정보</legend>
+			<ul>
+				<li>
+				<label for="add">주소</label>
+				<input type="text" id="add">
+				</li>
+				<li>
+				<label for="tel2">전화번호</label>
+				<input type="tel" id="tel2">
+				</li>
+				<li>
+				<label for="memo">메모</label>
+				<textarea></textarea>
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>주문 정보</legend>
+			
+		</fieldset>
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>[속성 $= 값] 선택자</title>
+	<style>
+		ul {
+			list-style:square;
+		}
+		li a  {
+			line-height:30px;
+			font-size:14px;
+			color:blue;
+			text-decoration:none;
+		}
+		a[href $="hwp"] {
+			background:url(images/hwp_icom.gif) center right no-repeat;
+			padding-right:25px;
+		}
+		a[href $="xls"] {
+			background:url(images/excel_icom.gif) center right no-repeat;
+			padding-right:25px;
+		}
+	</style>
+</head>
+<body>
+	<h3><a href="intro.hwp">hwp 파일</a></h3>
+	<h3><a href="intro.xls">엑셀 파일</a></h3>
+</body>
+</html>

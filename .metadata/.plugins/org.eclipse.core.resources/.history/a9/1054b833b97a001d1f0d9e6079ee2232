@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>transition연습</title>
+	<style>
+		.box1 {
+			width:100px;
+			height:100px;
+			background-color:tomato;
+			border:1px solid green;
+			
+		}
+		.box1:hover {
+			width:200px;
+			height:200px;
+			background-color:red;
+			transition:.4s
+		}
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>

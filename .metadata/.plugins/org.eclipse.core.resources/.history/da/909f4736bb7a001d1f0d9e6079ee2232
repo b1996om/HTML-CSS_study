@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>transition, transform연습</title>
+	<script src="prefixfree.min.js"></script>
+	<style>
+		div {
+			width:100px;
+			height:100px;
+			float:left;
+			margin:50px;
+		}
+		.box1 {
+			background-color:green;
+			border:1px solid black;
+			transition:1s
+		}
+		.box1:hover {
+			width:100px;
+			height:100px;
+			border-radius:50%;
+			background-color:tomato;
+			transform:rotate(180deg);
+		}
+		.box2 {
+			background-color:skyblue;
+			border:1px solid black;
+			transition:1s
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>

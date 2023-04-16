@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>레이아웃</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		#con {
+			width:960px;
+			margin:0 auto;
+			border:2px solid blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="con">
+		<header id="logo">
+			<h4>상단헤더</h4>
+		</header>
+		<nav>
+			<h4>내비게이션 메뉴</h4>
+		</nav>
+		<section>
+			<h4>메인콘텐츠</h4>
+		</section>
+		<aside>
+			<h4>사이드바</h4>
+		</aside>
+		<footer>
+			<h4>하단 푸터</h4>
+		</footer>
+	</div>
+</body>
+</html>

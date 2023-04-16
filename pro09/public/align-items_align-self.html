@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>플렉스 박스(align-items, align-self)</title>
+	<!-- justify : 좌우기준(정렬) -->
+	<!-- align : 상하기준(정렬) -->
+	<style>
+		#con {
+			width:500px;
+			height:300px;
+			margin:0 auto;
+			display:flex;
+			align-items:center;  /* 아이템들 가운데 정렬(세로기준으로 가운데) */
+			border:2px solid black;
+		}
+		#con div {
+			width:200px;   
+			border:2px solid black;
+			background:#ccc;
+		}
+		.box1 {
+			align-self:flex-start;  /* 얘만 선택해서 따로 첫번째로 이동  */
+		}
+		h1 {
+			font-size:20px;
+		}
+		p {
+			font-weight:bold;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<div id="con">
+		<div class="box1"><p>1</p></div>
+		<div class="box2"><p>2</p></div>
+		<div class="box3"><p>3</p></div>
+	</div>
+</body>
+</html>

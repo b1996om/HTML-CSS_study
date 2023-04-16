@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Transform</title>
+	<style>
+		.origin {
+			width:210px;
+			height:210px;
+			border:1px solid black;
+			float:left;
+			margin:100px;
+		}
+		.skewx:hover {
+			transform:skewX(30deg);
+		}
+		.skewy:hover {
+			transform:skewY(30deg);
+		}
+		.skewxy:hover {
+			transform:skewXY(30deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="origin">
+		<div class="skewx">
+			<img src="images/coffee.jpg" width=210 height=210>
+		</div>
+	</div>
+	<div class="origin">
+		<div class="skewey">
+			<img src="images/coffee.jpg" width=210 height=210>
+		</div>
+	</div>
+	<div class="origin">
+		<div class="skewxy">
+			<img src="images/coffee.jpg" width=210 height=210>
+		</div>
+	</div>
+</body>
+</html>

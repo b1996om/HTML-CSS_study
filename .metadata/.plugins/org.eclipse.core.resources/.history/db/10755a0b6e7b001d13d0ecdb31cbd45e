@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>레이아웃</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<header id="logo">
+			
+		</header>
+	</div>
+</body>
+</html>

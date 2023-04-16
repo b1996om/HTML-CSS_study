@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Transform</title>
+	<style>
+		.origin {
+			width:210px;
+			height:210px;
+			border:1px solid black;
+			float:left;
+			margin:100px;
+		}
+		.
+	</style>
+</head>
+<body>
+	<div class="origin">
+		<div class="ltop">
+			<img src="images/coffee.jpg" width=210 height=210 class="coffee">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rtop">
+			<img src="images/coffee.jpg" width=210 height=210 class="coffee">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="lbottom">
+			<img src="images/coffee.jpg" width=210 height=210 class="coffee">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rbottom">
+			<img src="images/coffee.jpg" width=210 height=210 class="coffee">
+		</div>
+	</div>
+</body>
+</html>

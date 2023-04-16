@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<script src="prefixfree.min.js"></script>  <!-- 브라우저 접두사 자동 생성 js코드 -->
+	<title>HTML5 레이아웃</title>
+	<style>
+		body {
+			font-family:"맑은 고딕", "고딕", "굴림";
+		}
+		section {
+			padding:20px;
+			width:600px;
+			margin:20px auto;
+			border:1px solid #ccc;
+			border-radius:10px;
+		}
+		.multi {
+			column-count:4;
+			column-rule:2px dotted #000;
+		}
+		.multi h3 {
+			break-before:column;
+		}
+	</style>
+</head>
+<body>
+
+</body>
+</html>

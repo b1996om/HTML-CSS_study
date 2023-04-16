@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>예약 정보</title>
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+		con {
+			width:500px;
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="con">
+		
+	</div>
+</body>
+</html>

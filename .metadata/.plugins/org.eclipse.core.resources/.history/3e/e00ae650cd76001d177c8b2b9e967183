@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Perspective</title>
+	<style>
+		div {
+			width:200px;
+			height:200px;
+		}
+		.con {
+			border:1px solid red;
+			perspective:300px;
+			margin-top :100px;
+			margin-left:100px;
+			float:left;
+		}
+		.box1 {
+			background:blue;
+			transform:rotateY(45deg);
+		}
+	    .box2 {
+	    	background:tomato;
+	    	transform-origin:left top;
+	    	transform:rotateX(45deg);
+	    }
+	    #tr-style1 {
+	    	transform-style:flat;
+	    }
+	     #tr-style2 {
+	    	transform-style:preserve-3d;
+	    }
+	</style>
+</head>
+<body>
+	<div class="con">
+		<div class="box1" id="tr-style1">
+			<img src="images/sunset.jpg" alt="선셋">
+		</div>
+	</div>
+	<div class="con">
+		<div class="box1" id="tr-style2">
+			<img src="images/sunset.jpg" alt="선셋">
+		</div>
+	</div>
+</body>
+</html>

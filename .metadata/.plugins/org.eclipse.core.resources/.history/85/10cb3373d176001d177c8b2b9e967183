@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>표 만들기</title>
+</head>
+<body>
+	<h3>시간표</h3>
+	<table>
+		<tr>1교시
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>2교시
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>3교시
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

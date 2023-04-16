@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<script src="prefixfree.min.js"></script>
+	<title>원형 그라데이션</title>
+	<style>
+		li {
+			display:inline-block;  /* 원래 li는 블락속성, inline-block으로 바꿔서 한줄 배치 해준다.  */
+			width:300px;
+			height:300px;
+			border:1px solid black;
+			margin:10px;
+		}
+		.div1 {
+			background:-webkit-radial-gradient(30% 40%, circle closest-side, white, yellow, red)
+		}
+		.div2 {
+			background:-webkit-radial-gradient(30% 40%, circle closest-corner, white, yellow, red)
+		}
+		.div3 {
+			background:-webkit-radial-gradient(30% 40%, circle farthest-side, white, yellow, red)
+		}
+		.div4 {
+			background:-webkit-radial-gradient(30% 40%, circle farthest-corner, white, yellow, red)
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<ul>
+		<li class="div1"></li>
+		<li class="div2"></li>
+		<li class="div3"></li>
+		<li class="div4"></li>
+	</ul>
+</body>
+</html>

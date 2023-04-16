@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>Perspective</title>
+	<style>
+		h1 {
+			text-align:center;
+			font-size:52px;
+		}
+		.tr1 {
+			width:100px;
+			height:100px;
+			background-color:red;
+			border: 1px solid black;
+			transition-property:background-color, transform, width, height;
+			transition-duration:2s, 3s;
+		}
+	</style>
+</head>
+<body>
+
+</body>
+</html>
